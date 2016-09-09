@@ -1,5 +1,5 @@
 #! /bin/bash
-clear && read -p "¿Cual es el nombre de usuario que deseas crear? " user_name && 
+clear && read -p "Hola, ¿Cual es el nombre de usuario que deseas crear? " user_name && 
 adduser $user_name && 
 adduser $user_name sudo && 
 mkdir /home/$user_name/public_html && 
