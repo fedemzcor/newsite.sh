@@ -17,4 +17,4 @@ echo "CustomLog ${APACHE_LOG_DIR}/access.log combined" >> /etc/apache2/sites-ava
 echo "</VirtualHost>" >> /etc/apache2/sites-available/$domain_name.conf && 
 a2ensite $domain_name && 
 service apache2 reload && 
-echo "El usuario $user_name se ha creado correctamente"
+echo "Usuario $user_name se ha creado correctamente."
